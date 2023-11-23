@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión y Registro</title>
+    <link   rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulario de Inicio y Registro</h1>
+    <div class="form-container">
+        <form id="loginForm">
+            <h2>Inicio de Sesión</h2>
+            <div>
+                <label for="loginUsername">Usuario</label>
+                <input type="text" id="loginUsername" required>
+            </div>
+            <div>
+                <label for="loginPassword">Contraseña</label>
+                <input type="password" id="loginPassword" required>
+            </div>
+            <button type="submit">Iniciar sesión</button>
+        </form>
+        <form id="registrationForm">
+            <h2>Regsitrate</h2>
+            <div>
+                <label for="regUsername">Usuario</label>
+                <input type="text" id="regUsername" required>
+            </div>
+            <div>
+                <label for="regEmail">Email</label>
+                <input type="email" id="regEmail" required>
+            </div>
+            <div>
+                <label for="regPassword">Contraseña</label>
+                <input type="password" id="regPassword" required>
+            </div>
+            <div>
+                <label for="regConfirmPassword">Confirmar contraseña</label>
+                <input type="password" id="regConfirmPassword" required>
+            </div>
+            <button type="submit">Registrarse</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
